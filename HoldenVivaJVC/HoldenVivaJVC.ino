@@ -22,7 +22,7 @@
  * The program also waits for the button to be released before sending the digital
  * output line low which allows the seek function to work as intended.
  *
- * There is a delay between rotary encoder signals that has been tweeked to be
+ * There is a delay between rotary encoder signals that has been tweaked to be
  * acceptable to the end user when holding down the volume down or volume up control.
  *
  * @author Ronald Diaz <aussieronnied@gmail.com>
@@ -81,7 +81,7 @@ void setup() {
  */
 void loop() {
 
-  // Aquire the current button
+  // Acquire the current button
   currentButton = getButton();
   
   //Serial.println(currentButton);
